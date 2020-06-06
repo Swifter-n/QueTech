@@ -49,7 +49,10 @@ body{
 
 
 .navbar-nav{
-	margin-left: 42%;
+	margin-left: 22%;
+}
+.navbar .navbar-brand img{
+	width: 35%;
 }
 
 .hero{
@@ -121,6 +124,9 @@ p{
 	}
 	.slide{
 		margin-top: 20%;
+	}
+	.navbar .navbar-brand img{
+		width: 50%;
 	}
 
 
