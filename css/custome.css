@@ -4,6 +4,10 @@
 	font-family: 'Poppins', sans-serif;
 	position: relative;
 }
+body{
+	overflow-x: hidden;
+
+}
 .swiper-container {
     width: 100%;
     padding-top: 50px;
@@ -52,7 +56,6 @@
 	color: black;
 	text-shadow: 0 0 10px (0, 0, 0, 0.2);
 	font-size: 30px;
-	height: 100vh;
 }	
 
 .hero h1{
@@ -103,9 +106,7 @@ p{
 	font-weight: bold;
 }
 
-.slide{
-	height: 100vh;
-}
+
 
 @media only screen and (max-width: 768px) {
 	.navbar-nav{
@@ -116,4 +117,9 @@ p{
 		margin-top: 10px;
 		margin-left: 0 !important;
 	}
+	.slide{
+		margin-top: 20%;
+	}
+
+
 }
