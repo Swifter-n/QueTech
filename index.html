@@ -18,10 +18,10 @@
 	<div class="header">
 		<div class="container">
 			<div class="logo"><img src="img/logo.png" style="width: 187px;"></div>
-			<nav class="active">
+			<nav>
 				<ul>
-					<li><a href="#" class="active">About Us</a></li>
-					<li><a href="#">What We Do</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Our Service</a></li>
 					<li><a href="#">Our Team</a></li>
 					<li><a href="#">Contact Us</a></li>
 				</ul>
@@ -37,9 +37,9 @@
 		<div class="container mt-5">
 			<div class="row">
 				<div class="col align-self-center">
-					<p>We provide Outsourced</p>
-					<h1>IT Service</h1>
-					<p>for startups & Mid-sized Company</p>
+					<p>Hello, We Are QueTech</p>
+					<h1>IT Solutions</h1>
+					<p>Quick Responsive and Guanrantee</p>
 					<a class="btn btn-primary" href="#" role="button">Watch Video</a>
 					<a class="btn btn-secondary ml-3" href="#" role="button">Get in Touch</a>
 				</div>
@@ -57,16 +57,13 @@
 			<div class="row">
 				<div class=" col align-self-center">
 					<p data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:150px">Who We Are</p>
-					<h3 data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:150px">Custome IT Solutions
-						for
-						Your Business</h3>
+					<h3 data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:150px">We Provided IT
+						Solutions for your Business</h3>
 					<p class="d-flex justify-content-start">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						We are QueTech A Fresh Starup which moved in Technology Development. We will give many solutions
+						for the company about How to Make customize web based more Interesting, Responsive, and Very
+						Usable depends on companies needs the team. We are fresh startup with experienced team, quick
+						response, and high quality services.
 					</p>
 				</div>
 				<div class="col d-none d-sm-block d-sm-none d-md-block" data-center-center="opacity:1;left:0;"
@@ -113,7 +110,7 @@
 
 				<div class="col-6 service">
 					<img src="img/service4.png" class="rounded mx-auto d-block" alt="...">
-					<h3 class="text-center">IT Support</h3>
+					<h3 class="text-center">IT Consultant</h3>
 					<p class="d-flex justify-content-start .justify-content-sm-center">Lorem ipsum dolor
 						sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -143,7 +140,7 @@
 								</div>
 								<div class="details">
 									<h3>Ibnu<br />
-										<span>Web/Mobile Dev</span></h3>
+										<span>Back-End Developer / Mobile Apps</span></h3>
 								</div>
 							</div>
 							<div class="swiper-slide">
@@ -152,7 +149,7 @@
 								</div>
 								<div class="details">
 									<h3>Ihsan<br />
-										<span>Web Dev</span></h3>
+										<span>Front-End Developer</span></h3>
 								</div>
 							</div>
 							<div class="swiper-slide">
@@ -161,7 +158,16 @@
 								</div>
 								<div class="details">
 									<h3>Ryo<br />
-										<span>System Analiys</span></h3>
+										<span>System Analyst</span></h3>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="imgBox">
+									<img src="img/portofolio4.jpg">
+								</div>
+								<div class="details">
+									<h3>Fathur<br />
+										<span>Business Analyst / Project Manager</span></h3>
 								</div>
 							</div>
 						</div>
@@ -239,18 +245,16 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 	<script src="js/skrollr.js"></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 	<script type="text/javascript">
-		
-		var s = skrollr.init();
-		
 		// Sidebar
-		$(document).ready(function(){
-			$('.menu-toggle').click(function(){
+		$(document).ready(function () {
+			$('.menu-toggle').on('click', function () {
 				$('nav').toggleClass('active');
 			});
 		});
-		
+
+		var s = skrollr.init();
+
 		var swiper = new Swiper('.swiper-container', {
 			effect: 'coverflow',
 			grabCursor: true,
