@@ -171,8 +171,7 @@ p{
 /*responsive*/
 @media only screen and (max-width: 991px) {
 	body{
-		z-index: 0 !important;
-		overflow: scroll !important;
+		-webkit-user-drag: auto;
 	}
 	.header{
 		padding: 0 20px;
