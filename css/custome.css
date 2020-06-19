@@ -172,7 +172,7 @@ p{
 .slide{margin-top: 20%;}
 
 
-/*responsive*/
+/* responsive
 @media only screen and (max-width: 991px) {
 	body{
 		-webkit-user-drag: auto;
@@ -231,4 +231,4 @@ p{
 	}
 
 
-}
+} */
