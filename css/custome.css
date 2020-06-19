@@ -29,7 +29,6 @@ body{
 
 .header nav{
 	float: right;
-	
 }
 
 .header nav ul{
@@ -66,7 +65,7 @@ body{
 
 
 /*slider*/
-.swiper-container {
+/* .swiper-container {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -103,16 +102,7 @@ body{
 .swiper-slide .details h3 span{
 	font-size: 16px;
 	color: #333;
-}
-
-
-/*content*/
-.navbar-nav{
-	margin-left: 22%;
-}
-.navbar .navbar-brand img{
-	width: 35%;
-}
+} */
 
 .hero{
 	margin-top: 200px;
@@ -172,7 +162,7 @@ p{
 .slide{margin-top: 20%;}
 
 
-/* responsive
+ 
 @media only screen and (max-width: 991px) {
 	body{
 		-webkit-user-drag: auto;
@@ -210,9 +200,7 @@ p{
 	.header nav ul li a:hover{
 		color: #000;
 	}
-	.navbar-nav{
-		margin: 0;
-	}
+
 
 	.hero .btn-primary, .btn-secondary{
 		margin-top: 10px;
@@ -226,9 +214,5 @@ p{
 	.slide{
 		margin-top: 20%;
 	}
-	.navbar .navbar-brand img{
-		width: 50%;
-	}
 
-
-} */
+}
