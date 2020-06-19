@@ -4,6 +4,12 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+body{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	
+}
+
 /*navbar*/
 .header{
 	position: absolute;
