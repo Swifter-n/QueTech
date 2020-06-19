@@ -6,7 +6,6 @@
 }
 body{
 	overflow-x: hidden;
-	-webkit-user-drag: none;
 }
 /*navbar*/
 .header{
@@ -172,6 +171,9 @@ p{
 
 /*responsive*/
 @media only screen and (max-width: 991px) {
+	body{
+		overflow-y: scroll;
+	}
 	.header{
 		padding: 0 20px;
 	}
