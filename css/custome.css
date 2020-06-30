@@ -1,218 +1,214 @@
-*{
-	padding: 0;
-	margin: 0;
-	font-family: 'Poppins', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
-	overflow-y: scroll;
-	overflow-x: hidden;
-	
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 /*navbar*/
-.header{
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 0 100px;
-	background-color: #eee;
-	width: 100%;
-	box-sizing: border-box;
-	z-index: 1;
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  background-color: #eee;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
 }
 
-.header .logo{
-	margin-top: 10px;
-	float: left;
+.header .logo {
+  margin-top: 10px;
+  float: left;
 }
 
-.header nav{
-	float: right;
+.header nav {
+  float: right;
 }
 
-.header nav ul{
-	margin: 0;
-	padding: 0;
-	display: flex;
+.header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-.header nav ul li{
-	list-style: none;
+.header nav ul li {
+  list-style: none;
 }
 
-.header nav ul li a{
-	height: 100px;
-	line-height: 100px;
-	padding: 0 10px;
-	display: block;
-	color: #0184D1;
-	text-decoration: none;
+.header nav ul li a {
+  height: 100px;
+  line-height: 100px;
+  padding: 0 10px;
+  display: block;
+  color: #0184d1;
+  text-decoration: none;
 }
 
-.header nav ul li a:hover{
-	color: #91b8f9;
+.header nav ul li a:hover {
+  color: #91b8f9;
 }
 
-.menu-toggle{
-	float: right;
-	color: #0184D1;
-	line-height: 100px;
-	font-size: 24px;
-	cursor: pointer;
-	display: none;
+.menu-toggle {
+  float: right;
+  color: #0184d1;
+  line-height: 100px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
 }
-
 
 /*slider*/
-/* .swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 490px;
-    background-color: #ffffff;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 490px;
+  background-color: #ffffff;
 }
 
-.swiper-slide .imgBox{
-	width: 100%;
-	height: 300px;
-	overflow: hidden;
+.swiper-slide .imgBox {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
 }
-.swiper-slide .imgBox img{
-	width: 100%;
+.swiper-slide .imgBox img {
+  width: 100%;
 }
-.swiper-slide .details{
-	box-sizing: border-box;
-	padding: 20px;
-	font-size: 20px;
+.swiper-slide .details {
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 20px;
 }
-.swiper-slide .details h3{
-	margin: 0;
-	padding: 0;
-	font-size: 20px;
-	text-align: center;
-	line-height: 20px;
+.swiper-slide .details h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
 }
-.swiper-slide .details h3 span{
-	font-size: 16px;
-	color: #333;
-} */
-
-.hero{
-	margin-top: 200px;
-	color: black;
-	text-shadow: 0 0 10px (0, 0, 0, 0.2);
-	font-size: 30px;
-}	
-
-.hero h1{
-	color: #2F281E;
-	font-weight: 700;
+.swiper-slide .details h3 span {
+  font-size: 16px;
+  color: #333;
 }
 
-.hero p{
-	color: #2F281E;
-	font-weight: 400;
+.hero {
+  margin-top: 200px;
+  color: black;
+  text-shadow: 0 0 10px (0, 0, 0, 0.2);
+  font-size: 30px;
 }
 
-.hero .btn-primary{
-	background-color: #0184D1;
-	border: 0;
-	border-radius: 10px 0 10px 0;
-	padding: 15px 40px 15px 40px;
-	font-size: 16px;
-	font-weight: bold;
+.hero h1 {
+  color: #2f281e;
+  font-weight: 700;
 }
 
-.hero .btn-secondary{
-	background-color: #333; 
-	border: 1px solid #000;
-	border-radius: 10px 0 10px 0;
-	padding: 15px 40px 15px 40px;
-	font-size: 16px;
-	font-weight: bold;
+.hero p {
+  color: #2f281e;
+  font-weight: 400;
 }
 
-h3{
-	color: #2F281E;
-	font-weight: 700;
+.hero .btn-primary {
+  background-color: #0184d1;
+  border: 0;
+  border-radius: 10px 0 10px 0;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-p{
-	color: #2F281E;
-	font-weight: 400;
+.hero .btn-secondary {
+  background-color: #333;
+  border: 1px solid #000;
+  border-radius: 10px 0 10px 0;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #2f281e;
+  font-weight: 700;
+}
+
+p {
+  color: #2f281e;
+  font-weight: 400;
 }
 
 .btn_send {
-	width: 150px;
-	background-color: #0184D1;
-	border: 0;
-	border-radius: 10px 0 10px 0;
-	padding: 10px 30px 10px 30px;
-	font-size: 16px;
-	font-weight: bold;
+  width: 150px;
+  background-color: #0184d1;
+  border: 0;
+  border-radius: 10px 0 10px 0;
+  padding: 10px 30px 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.slide{margin-top: 20%;}
+.slide {
+  margin-top: 20%;
+}
 
-
- 
 @media only screen and (max-width: 991px) {
-	body{
-		-webkit-user-drag: auto;
-	}
-	.header{
-		padding: 0 20px;
-	}
+  body {
+    -webkit-user-drag: auto;
+  }
+  .header {
+    padding: 0 20px;
+  }
 
-	.menu-toggle{
-		display: block;
-	}
+  .menu-toggle {
+    display: block;
+  }
 
-	.header nav{
-		position: absolute;
-		width: 100%;
-		height: 100vh;
-		background-color: rgba(0,96,255, 0.8);
-		top: 100px;
-		left: -100%;
-		transition: 0.5s;
-		opacity: 0.7;
-	}
-	.header nav.active{
-		left: 0;
-	}
-	.header nav ul{
-		display: block;
-		text-align: center;
-	}
+  .header nav {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 96, 255, 0.8);
+    top: 100px;
+    left: -100%;
+    transition: 0.5s;
+    opacity: 0.7;
+  }
+  .header nav.active {
+    left: 0;
+  }
+  .header nav ul {
+    display: block;
+    text-align: center;
+  }
 
-	.header nav ul li a{
-		color: #fff;
-		border-bottom: 1px solid rgba(0,0,0,0.2);
-	}
-	.header nav ul li a:hover{
-		color: #000;
-	}
+  .header nav ul li a {
+    color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .header nav ul li a:hover {
+    color: #000;
+  }
 
-
-	.hero .btn-primary, .btn-secondary{
-		margin-top: 10px;
-		margin-left: 0 !important;
-	}
-	body{
-		overflow-y: scroll !important;
-		overflow-x: hidden;
-		
-	}
-	.slide{
-		margin-top: 20%;
-	}
-
+  .hero .btn-primary,
+  .btn-secondary {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+  body {
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+  }
+  .slide {
+    margin-top: 20%;
+  }
 }
