@@ -4,8 +4,9 @@
   font-family: "Poppins", sans-serif;
 }
 
-html body {
-  overflow: scroll !important;
+html {
+  width: 100vw;
+  overflow-y: scroll;
 }
 body {
   overflow-x: hidden;
